@@ -1,0 +1,83 @@
+.homepage-container{
+    background-image: url('../photos/home-bg.jpg');
+    min-height: 710px;
+    max-height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.homepage-headings{
+    text-align: center;
+    
+}
+
+.homepage-headings h2{
+    padding-top: 30px;
+    color: #ff8000;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.homepage-headings h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, serif !important;
+    font-weight: 500;
+}
+
+.homepage-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    text-align: center;
+    bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.homepage-card{
+    border: 3px #ff8000 solid;
+    border-radius: 10px;
+    color: white;
+    width: 140px;
+    height: 180px;
+    text-align: center;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.homepage-icon img{
+    margin-top: 15px;
+    height: 58px;
+    width: 48px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 991px){
+    .homepage-container{
+        min-height: 1100px;
+    }
+    .homepage-headings h4{
+        color: aliceblue;
+    }
+}
+
+@media screen and (max-width: 300px){
+
+    .homepage-container{
+        min-height: 1800px;
+    }
+    .homepage-headings h2{
+        font-size: 40px;
+    }
+    .homepage-headings h4{
+        font-size: 25px;
+    }
+}

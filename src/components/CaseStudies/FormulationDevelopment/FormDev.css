@@ -1,0 +1,58 @@
+.form-dev-container{
+    background-image: url('../../photos/rtpcr-bg.png');
+    background-repeat: no-repeat;
+    /* background-size:100%;  */
+    background-size: cover;
+    height: 690px;
+    min-height: auto;
+}
+
+.form-dev-container h2{
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form-dev-card-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-dev-card{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 500px;
+    /* border: 2px black solid; */
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #555c66;
+}
+
+.form-dev-card p{
+    margin-top: 20px;
+    font-size: 1.12rem;
+}
+
+#competition{
+    background-color:#ffff;
+    color: black;
+    border: 2px black solid;
+}
+
+#case2{
+    color: #111111;
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width:700px) {
+    .form-dev-container h2{
+        font-size: 2rem;
+    }
+}
+

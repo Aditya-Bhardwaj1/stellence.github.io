@@ -1,0 +1,104 @@
+.rtpcr-container{
+    background-image: url('../../photos/rtpcr-bg.png');
+    background-repeat: no-repeat;
+    /* background-size:100%;  */
+    background-size: cover;
+    min-height: auto;
+}
+
+.rtpcr-heading h2{
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rtpcr-text-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.rtpcr-text-img-container h4{
+    width: 500px;
+    font-size: 1.875rem;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif !important;
+    text-align: center;
+    padding: 10px;
+}
+
+.rtpcr-text-img-container img{
+    border: 3px black solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 520px;
+    width: 546px;
+}
+
+.rtpcr-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.rtpcr-container .rtpcr-card{
+    background-image: url('../../photos/rtpcr-card-bg1.png');
+    background-repeat: no-repeat;
+    /* background-size:100%;  */
+    width: 220px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    height: 270px;
+    margin: 20px;
+}
+
+.rtpcr-container .rtpcr-card h6{
+    font-weight: 700;
+    font-family: Montserrat, sans-serif !important;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+
+}
+
+.rtpcr-container .rtpcr-card ul{
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .rtpcr-heading h2{
+        font-size: 2.5rem;
+    }
+
+    .rtpcr-text-img-container img{
+        height: 300px;
+        width: 320px;
+    }
+    .rtpcr-text-img-container h4{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    
+    .rtpcr-text-img-container img{
+        height: 250px;
+        width: 270px;
+    }
+    .rtpcr-text-img-container h4{
+        font-size: 1.25rem;
+    }
+    
+}
+
+

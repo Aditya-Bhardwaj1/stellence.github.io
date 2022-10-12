@@ -1,0 +1,89 @@
+.heading-box-container{
+    background-image: url(../photos/team-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meat-heading{
+    /* margin-top: 20px; */
+    padding-top: 30px;
+    text-align: center;
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: xxx-large;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.cards-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.two-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.indi-card{
+    margin: 10px;
+    min-height: 300px;
+    background-color: #f2f2f2 !important;
+    /* background-image: linear-gradient(white, #f2f2f2) !important; */
+}
+
+.indi-card .card-title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.indi-card .card-text{
+    font-size: 18px;
+}
+
+.sub-heading{
+    color:#ff8000;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .two-cards{
+        flex-direction: column;
+    }
+    .indi-card{
+        width:50px;
+    }
+    .meat-heading{
+       color:aliceblue;
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .card{
+        width:25rem !important;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+    .card{
+        width:20rem !important;
+    }
+
+    
+}
+
+

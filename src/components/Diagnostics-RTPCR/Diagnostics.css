@@ -1,0 +1,152 @@
+.diag-heading-bg{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../photos/diag-bg.jpg');
+    background-size:cover; 
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diag-heading-bg h2{
+    font-family: Georgia, serif !important;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.diag-text{
+    font-family: 'Open Sans',sans-serif !important;
+    font-size: 1.4rem;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.diag-text i{
+    color: #ff8000;
+    
+}
+
+.genome-heading-image{
+    text-align: center;
+}
+
+.genome-heading-image h4{
+    color: #ff8000;
+    font-family: Georgia, serif !important;
+    font-size: 2.0rem;
+    font-weight: 600px;
+}
+
+.genome-heading-image img{
+    width: 70%;
+}
+
+.rtpcr-product-card-contianer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rtpcr-product-heading-card h4{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-family: Georgia, serif !important;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.rtpcr-product-card{
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    border: 3px black solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.rtpcr-product-card img{
+    border: 5px #555c66 solid;
+    border-radius: 50% !important;
+    border-color: #555c66;
+    box-shadow: -7px 0px 8px 0 rgb(128 128 128);
+    width: 110px;
+    height: 110px;
+    background-position: 50% 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.rtpcr-product-card p{
+    padding: 5px;
+}
+
+.svashmi-dev-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.svashmi-dev-container h4{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-family: Georgia, serif !important;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.svashmi-card{
+    background-color: #4d4d4d;
+    border: 2px #ff8000 solid;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: aliceblue;
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.svashmi-card b{
+    color: #ff8000;
+}
+
+
+@media screen and (max-width: 500px){
+    .genome-heading-image img{
+        width:95%
+    }
+    .diag-text{
+        margin: 10px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .diag-heading-bg h2{
+        font-size: 1.5rem;
+    }
+    .genome-heading-image h4{
+        font-size: 1.25rem;
+    }
+    .rtpcr-product-heading-card h4{
+        font-size: 1.25rem;
+    }
+}
+    

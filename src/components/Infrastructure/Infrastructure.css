@@ -1,0 +1,37 @@
+.heading-image-container{
+    background-image: url('../photos/timeline.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.infra-heading{
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    text-align: center;
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.infra-container{
+    
+    margin-top: 30px;
+    /* size: 500px; */
+    height: 580px;
+    width: 850px;
+}
+
+@media screen and (max-width: 480px) {
+    .infra-container{
+        margin-top: 80px;
+        height: 480px;
+    }
+  }

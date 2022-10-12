@@ -1,0 +1,93 @@
+.heading-bg{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../photos/spk-bg.png');
+    background-size:cover; 
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading-bg h2{
+    font-family: Georgia, serif !important;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.sck-card-container{
+    padding: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-basis: 700px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.sck-card{
+    margin: 20px;
+    background-color: #ff8000;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
+    color: #ffffff;
+    border-radius: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.sck-card-grey{
+    background-color: #555c66;
+}
+
+.sck-card .sck-card-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.sck-card img{
+    /* background-color: #ffffff; */
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border: 0px;
+    /*  */
+}
+
+.sck-card h4{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px){
+    .heading-bg h2{
+        font-size: 2rem;
+    }
+    .sck-card-container{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .heading-bg h2{
+        font-size: 1.25rem;
+    }
+    .sck-card h4{
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .heading-bg h2{
+        font-size: 1.0rem;
+    }
+}

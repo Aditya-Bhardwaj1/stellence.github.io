@@ -1,0 +1,115 @@
+.bod-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bod-heading{
+    padding-top: 30px;
+    text-align: center;
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: xxx-large;
+    padding-bottom: 20px;
+}
+
+.sub-bod-heading{
+    text-align: center;
+    font-weight: 400;
+}
+
+.maincontainer{
+    position: relative;
+    width: 400px;
+    height: 570px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* background: #ffc72f; */
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #333;
+    color: #ff8000;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    /* color: aliceblue; */
+    padding: 15px;
+}
+
+
+
+
+
+.subheading-bod-card{
+    font-weight: 400;
+    
+    color: #808080 !important;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.bod-card-image{
+    border-radius: 50%;
+    height: 256px;
+    width: 256px;
+}
+
+.bod-card-heading{
+    font-weight: 550;
+    margin-top: 40px;
+    color: #333;
+    text-align: center;
+    font-size: xx-large;
+    /* padding-top: 0px; */
+    /* margin-top: 0px; */
+    font-family: 'Playfair Display', serif !important;
+
+}
+
+.bod-description{
+    font-family: 'Playfair Display', serif !important;
+    font-size:16.5px;
+    /* position: absolute; */
+}
+
+@media screen and (max-width: 1024px) {
+    .bod-description{
+    font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .bod-container{
+        flex-direction: column;
+    }
+    .bod-description{
+        font-size: 16.5px;
+        }
+}

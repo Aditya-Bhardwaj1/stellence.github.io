@@ -1,0 +1,111 @@
+.stellence-nutra-container{
+    background-image: url('../../photos/rtpcr-bg.png');
+    background-repeat: no-repeat;
+    /* background-size:100%;  */
+    background-size: cover;
+    min-height: auto;
+    /* margin-top: 100px; */
+}
+
+.stellence-nutra-heading h2{
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.stellence-nutra-heading p{
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.stellence-nutra-subheading-img{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     margin-bottom: 20px;
+}
+
+.stellence-nutra-subheading{
+    padding: 10px;
+}
+
+.stellence-nutra-subheading h4{
+    font-family: Georgia, serif !important;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stellence-nutra-subheading p{
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+
+.stellence-nutra-img img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.stellence-card-img-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stellence-card-img img{
+    margin: 10px;
+    height: 608px;
+    border-radius: 20px;
+}
+
+.horse-cards{
+    height: 500px;
+}
+
+#horse-trials{
+    background-image: url('../../photos/blob-bg.png');
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-size: cover;
+    min-height: auto;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:500px) {
+    .stellence-card-img img{
+        height: 500px;
+    }
+    .horse-cards{
+        height: 400px !important;
+        
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .horse-cards{
+        height: 350px !important;   
+    }
+    .stellence-nutra-heading h2{
+        font-size: 2.5rem;
+    }
+    .stellence-nutra-subheading h4{
+        font-size:1.5rem;
+    }
+    .stellence-nutra-img img{
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+    }
+    
+}
