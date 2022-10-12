@@ -1,4 +1,3 @@
-import { Button } from "bootstrap";
 import React from "react";
 import './PeptideT.css';
 
@@ -13,14 +12,14 @@ function PeptideT(){
             <div className="peptide-card">
                 <button className="btn">STAPLED PEPTIDES</button>
                 <div className="photo-peptide-card" id="stapled-img">
-                <img src={require('../photos/stapled1.png')}/>
-                <img src={require('../photos/stapled2.png')}/>
+                <img src={require('../photos/stapled1.png')} alt="stapled"/>
+                <img src={require('../photos/stapled2.png')} alt="stapled"/>
                 </div>
             </div>
             <div className="peptide-card">
                 <button className="btn">CLICK CHEMISTRY</button>
                 <div className="photo-peptide-card">
-                <img src={require('../photos/click-chemistry.png')}/>
+                <img src={require('../photos/click-chemistry.png')} alt="click-chem"/>
                 
                 </div>
             </div>
@@ -34,14 +33,14 @@ function PeptideT(){
             <div className="peptide-card">
                 <button className="btn">CYS BRIDGING</button>
                 <div className="photo-peptide-card" id="cys-br">
-                <img src={require('../photos/cys-bridging.png')}/>
+                <img src={require('../photos/cys-bridging.png')} alt="cys-bridging"/>
                 
                 </div>
             </div>
             <div className="peptide-card">
                 <button className="btn">NESTED DISULPHIDES</button>
                 <div className="photo-peptide-card">
-                <img src={require('../photos/nested-di.png')}/>
+                <img src={require('../photos/nested-di.png')} alt="nested-di"/>
                 
                 </div>
             </div>

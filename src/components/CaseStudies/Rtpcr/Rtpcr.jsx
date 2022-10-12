@@ -10,7 +10,7 @@ function Rtpcr(){
         </div>
         <div className="rtpcr-text-img-container">
             <h4>Stellence Covid 19 RT-qPCR kit  - Validation data</h4>
-            <img src={require('../../photos/rtpcr-img.png')}/>
+            <img src={require('../../photos/rtpcr-img.png')} alt="graphdata"/>
         </div>
         <div className="rtpcr-card-container">
             <div className="rtpcr-card">

@@ -6,7 +6,7 @@ function Aboutus(){
         <>
         <div className="aboutus-image-container">
             <div className="ab-image-container">
-                <img src={require('../photos/aboutus.png')} className='img-about'/>
+                <img src={require('../photos/aboutus.png')} className='img-about' alt="aboutus"/>
             </div>
             <div className="aboutus-text">
                 <h2 className="aboutus-heading">About Us</h2>

@@ -24,28 +24,28 @@ function SCK(){
             </div>
             <div className="sck-card">
                 <div className="sck-card-img">
-                <img src={require('../photos/peptide-chem.png')}/>
+                <img src={require('../photos/peptide-chem.png')} alt="peptide-chem"/>
                 </div>
                 <h4> <b>PEPTIDE CHEMISTRY</b></h4>
                 <p>Solid Phase Solution Phase</p>
             </div>
             <div className="sck-card sck-card-grey">
                 <div className="sck-card-img">
-                <img src={require('../photos/metal-ion.png')}/>
+                <img src={require('../photos/metal-ion.png')} alt="metal-ion"/>
                 </div>
                 <h4> <b>METAL ION COUPLING</b></h4>
                 <p>Ton Scale Production</p>
             </div>
             <div className="sck-card">
                 <div className="sck-card-img">
-                <img src={require('../photos/lactum.png')}/>
+                <img src={require('../photos/lactum.png')} alt="lactum"/>
                 </div>
                 <h4> <b>LACTAM BRIDGING</b></h4>
                 <p>Several Molecules, mg scale</p>
             </div>
             <div className="sck-card sck-card-grey">
                 <div className="sck-card-img">
-                <img src={require('../photos/iodine.png')}/>
+                <img src={require('../photos/iodine.png')} alt="iodine"/>
                 </div>
                 <h4> <b>IODINE <br/> CHEMISTRY</b></h4>
                 <p>Ton Scale Production</p>

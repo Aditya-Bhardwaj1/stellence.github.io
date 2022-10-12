@@ -16,7 +16,7 @@ function Diagnostics(){
         <div className="genome-heading-image">
             <h4>Why Choose Genome Testing?</h4>
             <div className="genome-img">
-                <img src={require('../photos/genome.png')}/>
+                <img src={require('../photos/genome.png')} alt="genome"/>
             </div>
         </div>
         {/* <div className="rtpcr-product-heading-card">

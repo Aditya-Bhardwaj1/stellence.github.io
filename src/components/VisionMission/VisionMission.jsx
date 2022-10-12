@@ -9,7 +9,7 @@ function VisionMission(){
             </div>
             <div className="vision-text-photo">
                 <div className="vision-photo">
-                    <img src={require('../photos/vision-img.jpg')}/>
+                    <img src={require('../photos/vision-img.jpg')} alt="vision"/>
                 </div>
                 <div className="vision-text">
                     <h4> Vision</h4>
@@ -23,7 +23,7 @@ function VisionMission(){
                     <p>Employ Our Advanced Knowledge of Chemistry to Develop Portfolio of Niche, Life Saving Medicines</p>
                 </div>
                 <div className="mission-photo">
-                    <img src={require('../photos/mission-img.png')}/>
+                    <img src={require('../photos/mission-img.png')} alt="mission"/>
                 </div>
             </div>
 

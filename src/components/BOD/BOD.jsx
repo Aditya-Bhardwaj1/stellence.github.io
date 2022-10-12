@@ -1,6 +1,5 @@
 import React from "react";
 import './BOD.css';
-import Card from 'react-bootstrap/Card';
 
 function BOD(){
     return(
@@ -13,7 +12,7 @@ function BOD(){
             <div className="maincontainer">
                 <div className="thecard">
                     <div className="thefront">
-                    <img src={require("../photos/Ram1.jpg")} className="bod-card-image"/>
+                    <img src={require("../photos/Ram1.jpg")} className="bod-card-image" alt="ramimage"/>
                     <h3 className="bod-card-heading">Ramachandran Radhakrishna</h3>
                     <h5 className="subheading-bod-card">Director</h5>
                     </div>
@@ -34,7 +33,7 @@ function BOD(){
             <div className="maincontainer">
                 <div className="thecard">
                     <div className="thefront">
-                    <img src={require("../photos/anu.png")} className="bod-card-image"/>
+                    <img src={require("../photos/anu.png")} className="bod-card-image" alt="anuradhaimage"/>
                     <h3 className="bod-card-heading">Anuradha Ramachandran</h3>
                     <h5 className="subheading-bod-card">Director</h5>
                     </div>
@@ -51,7 +50,7 @@ function BOD(){
             <div className="maincontainer">
                 <div className="thecard">
                     <div className="thefront">
-                    <img src={require("../photos/aakash.png")} className="bod-card-image"/>
+                    <img src={require("../photos/aakash.png")} className="bod-card-image" alt="aakashimage"/>
                     <h3 className="bod-card-heading">Akash Mathur</h3>
                     <h5 className="subheading-bod-card">CEO & Executive Director</h5>
                     </div>

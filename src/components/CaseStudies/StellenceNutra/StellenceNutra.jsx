@@ -16,18 +16,18 @@ function StellenceNutra(){
                     commercial poultry</p>
                 </div>
                 <div className="stellence-nutra-img">
-                    <img src={require('../../photos/poultry.jpg')}/>
+                    <img src={require('../../photos/poultry.jpg')} alt="poultry"/>
                 </div>
             </div>
             <div className="stellence-card-img-container">
                 <div className="stellence-card-img">
-                    <img src={require('../../photos/poultry-graph1.png')}/>
+                    <img src={require('../../photos/poultry-graph1.png')}alt="graph"/>
                 </div>
                 <div className="stellence-card-img">
-                    <img src={require('../../photos/poultry-graph2.png')}/>
+                    <img src={require('../../photos/poultry-graph2.png')}alt="graph"/>
                 </div>
                 <div className="stellence-card-img">
-                    <img src={require('../../photos/poultry-graph3.png')}/>
+                    <img src={require('../../photos/poultry-graph3.png')}alt="graph"/>
                 </div>
             </div>
             
@@ -36,7 +36,7 @@ function StellenceNutra(){
             
             <div className="stellence-nutra-subheading-img">
                 <div className="stellence-nutra-img">
-                    <img src={require('../../photos/horse.jpg')}/>
+                    <img src={require('../../photos/horse.jpg')} alt="horse"/>
                 </div>
                 <div className="stellence-nutra-subheading">
                     <h4>Selenium</h4>
@@ -46,13 +46,13 @@ function StellenceNutra(){
             </div>
             <div className="stellence-card-img-container">
                 <div className="stellence-card-img ">
-                    <img src={require('../../photos/horse-graph1.png')} className="horse-cards"/>
+                    <img src={require('../../photos/horse-graph1.png')} className="horse-cards" alt="poultry-data"/>
                 </div>
                 <div className="stellence-card-img ">
-                    <img src={require('../../photos/horse-graph2.png')} className="horse-cards"/>
+                    <img src={require('../../photos/horse-graph2.png')} className="horse-cards" alt="poultry-data"/>
                 </div>
                 <div className="stellence-card-img ">
-                    <img src={require('../../photos/horse-graph3.png')} className="horse-cards"/>
+                    <img src={require('../../photos/horse-graph3.png')} className="horse-cards" alt="poultry-data"/>
                 </div>
             </div>
             

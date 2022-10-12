@@ -47,24 +47,6 @@ function App() {
         
     </Routes>
     </Router>
-    
-    {/* <Infrastructure/> */}
-    {/* <MeetTeam/>
-    <Timeline/>
-    <BOD/>
-    <Aboutus/>
-    <APIs/>
-    <HEIs/>
-    <Nutraceuticals/>
-    <HomePage/> */}
-    {/* <ContactUs/> */}
-    {/* <VisionMission/> */}
-    {/* <SCK/> */}
-    {/* <PeptideT/> */}
-    {/* <Diagnostics/> */}
-    {/* <Rtpcr/> */}
-    {/* <FormDev/> */}
-    {/* <StellenceNutra/> */}
     </>
   );
 }
