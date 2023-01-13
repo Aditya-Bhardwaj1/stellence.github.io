@@ -13,7 +13,7 @@
 }
 
 .homepage-headings h2{
-    padding-top: 30px;
+    padding-top: 20px;
     color: #ff8000;
     font-weight: 700;
     font-size: 60px;
@@ -69,7 +69,10 @@
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 370px){
+    .homepage-card-container{
+        flex-direction: column;
+    }
 
     .homepage-container{
         min-height: 1800px;

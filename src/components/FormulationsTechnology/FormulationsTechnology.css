@@ -1,0 +1,88 @@
+.formulations-heading-bg{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../photos/formulations-bg.jpg');
+    background-size:cover; 
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulations-heading-bg h2{
+    font-family: Georgia, serif !important;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.avigna-content{
+    /* background-color: #ff8000; */
+    padding: 10px;
+}
+
+.avigna-heading {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Georgia, serif !important;
+    
+}
+.avigna-heading .avi-bold{
+    font-weight: 700;
+}
+
+.avigna-description{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avigna-description ul{
+    list-style-type:square;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.avigna-description h4{
+    font-family: Georgia, serif !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.avigna-description img{
+    max-width: 70%;
+    padding: 50px;
+}
+
+@media screen and (max-width: 900px){
+    .avigna-description img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .formulations-heading-bg h2{
+        font-size: 1.75rem;
+    }
+    .avigna-description img{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .avigna-heading h3{
+    font-size: 20px;
+    }
+    .avigna-description h4{
+        font-size: 20px;
+    }
+    .avigna-description ul{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .formulations-heading-bg h2{
+        font-size: 1.5rem;
+    }
+}

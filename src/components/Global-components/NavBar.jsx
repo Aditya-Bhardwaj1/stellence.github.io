@@ -9,7 +9,7 @@ function NavBar(){
   <div className="container-fluid logotext-container">
     <a className="navbar-brand logo" href="/"><img src ={require("../photos/logo1.png")} alt='logo' style={{ width:"150px"}}/></a>
    
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler collasped" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle docs navigation">
     <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" >
@@ -29,7 +29,8 @@ function NavBar(){
             <li><Link className="dropdown-item" to="/aboutus/BOD">Board of Directors</Link></li>
             <li><Link className="dropdown-item" to="/aboutus/keymanagement">Key Management Personnel</Link></li>
             <li><Link className="dropdown-item" to="/aboutus/infrastructure">Infrastucture</Link></li>
-            <li><Link className="dropdown-item" to="/aboutus/timeline">Timeline</Link></li>
+            {/* <li><Link className="dropdown-item" to="/aboutus/timeline">Timeline</Link></li> */}
+            <li><Link className="dropdown-item" to="/aboutus/timelinenew">Timeline</Link></li>
           </ul>
         </li>
         <li className="nav-item dropdown">
@@ -40,7 +41,8 @@ function NavBar(){
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/technology/chemistryknowledge" >Chemistry Knowledge</Link></li>
             <li><Link className="dropdown-item" to="/technology/peptide" >Peptide Technology </Link></li>
-            <li><Link className="dropdown-item" to="/technology/diagnostics" >RT-PCR based Diagnostics</Link></li>
+            <li><Link className="dropdown-item" to="/technology/diagnostics" >Genomics Testing</Link></li>
+            <li><Link className="dropdown-item" to="/technology/FormulationsTechnology" >Formulations Technology</Link></li>
             
           </ul>
         </li>
@@ -61,9 +63,9 @@ function NavBar(){
             Case Studies
           </a>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/casestudies/formulations">Formulations</Link></li>
-            <li><Link className="dropdown-item" to="/casestudies/stellencenutra">Stellence Nutra</Link></li>
-            <li><Link className="dropdown-item" to="/casestudies/rtpcr">RT-PCR based Diagnostics</Link></li>
+            {/* <li><Link className="dropdown-item" to="/casestudies/formulations">Formulations</Link></li> */}
+            <li><Link className="dropdown-item" to="/casestudies/stellencenutra">Nutraceuticals</Link></li>
+            <li><Link className="dropdown-item" to="/casestudies/rtpcr">Genomics Testing</Link></li>
           </ul>
         </li>
         <li className="nav-item">

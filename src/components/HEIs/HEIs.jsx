@@ -36,8 +36,24 @@ function HEIs(){
                 <b>API/Use: </b> <i>Nafamostat Mesylate</i>
                 </div>
               </div>
+
+              <div className="products-card">
+                <div className="products-card-inner">
+                <img src={require('../photos/4-chloro.png')} alt='api-products'/>
+                <h3>4-Chloro-2,6-diaminopyrimidine (ACP)</h3>
+                <h5><b>CAS No: 156-83-2</b></h5>
+                {/* <b>Therapeutic area: </b> <i>Wakefulness Promoting Agents</i> */}
+                </div>
+              </div>
             
-            
+              <div className="products-card">
+                <div className="products-card-inner">
+                <img src={require('../photos/modafinil.jpg')} alt='api-products'/>
+                <h3>L-Prolinamide</h3>
+                <h5><b>CAS No: 7531-52-4</b></h5>
+                <b>API/Use: </b> <i>Vildagliptin</i>
+                </div>
+              </div>
               
             </div>
         </div>

@@ -6,7 +6,7 @@ function StellenceNutra(){
         <>
         <div className="stellence-nutra-container">
             <div className="stellence-nutra-heading">
-                <h2> Stellence Nutrition</h2>
+                <h2> Stellence Nutraceuticals</h2>
                 <p>Chemically Synthesized Highly Bioavailable</p>
             </div>
             <div className="stellence-nutra-subheading-img">

@@ -99,6 +99,20 @@
     /* position: absolute; */
 }
 
+.bod-description b{
+    font-weight: 300;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 1300px) {
+    .maincontainer{
+        height: 700px;
+    }
+    .bod-description{
+        font-size: 15px;
+        }
+}
+
 @media screen and (max-width: 1024px) {
     .bod-description{
     font-size: 15px;
@@ -112,4 +126,18 @@
     .bod-description{
         font-size: 16.5px;
         }
+}
+
+@media screen and (max-width: 400px) {
+    .maincontainer{
+        width: 300px;
+        min-height: 800px;
+    }
+}
+
+@media screen and (max-width: 301px) {
+    .maincontainer{
+        width: 200px;
+        min-height: 1000px;
+    }
 }

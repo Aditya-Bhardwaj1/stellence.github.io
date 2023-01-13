@@ -24,8 +24,8 @@
     padding: 15px;
     padding-top: 30px;
     background-color: white;
-    width: 500px;
-    height: 620px;
+    width: 700px;
+    height: 480px;
     border-radius: 20px;
     /* position: relative; */
     
@@ -41,6 +41,8 @@
 }
 
 .contactus-container h6{
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 20px;
     line-height: 1.2;
     font-family: Georgia, serif !important;
@@ -48,8 +50,13 @@
     font-weight: 500;
 }
 
+.contactus-container table{
+    margin-bottom: 30px;
+}
+
 td {
     padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 .newsletter-container{
@@ -94,6 +101,11 @@ td {
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.newsletter-container .button-sub:hover{
+   border: 2px black solid;
 }
 
 .newsletter-container .button-sub :hover{
@@ -132,7 +144,8 @@ td {
 
     .contactus-container{
         margin-top: 20px;
-        width: 500px;
+        width: 550px;
+        height: 530px;
     }
     .map-container{
         width: 500px;
@@ -143,6 +156,7 @@ td {
     .contactus-container{
         margin-top: 20px;
         width: 400px;
+        height: 580px;
         
     }
 

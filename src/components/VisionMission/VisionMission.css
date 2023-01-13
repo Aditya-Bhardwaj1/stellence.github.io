@@ -66,7 +66,7 @@
     min-height: 550px;
     display: flex;
     /* align-items: center; */
-    padding-top: 100px;
+    padding-top: 80px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -79,7 +79,7 @@
 
 .mission-text-photo .mission-text{
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 0px;
     width: 600px;
 
 }
@@ -156,8 +156,12 @@
         font-size: 1.125rem;
     }
     .mission-text-photo .mission-photo img{
-        width: 2500px;
+        width: 250px;
         height: 250px;
+    }
+
+    .mission-text-photo{
+        padding-top: 90px;
     }
 
     .mission-text-photo .mission-text{
@@ -168,6 +172,14 @@
     }
     .mission-text-photo .mission-text p{
         font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .mission-photo img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
     }
 }
 

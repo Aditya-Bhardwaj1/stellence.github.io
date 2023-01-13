@@ -13,11 +13,12 @@ function MeetTeam(){
             <div className="two-cards">
                 <Card  className="indi-card">
                     <Card.Body>
-                        <Card.Title>T. SABIL</Card.Title>
+                        <Card.Title>T. SABIL, MBA</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Commercial Operations</Card.Subtitle>
                         <Card.Text>
-                        Sabil joined Stellence Pharmscience (erstwhile KCL) in early 2007 as Senior Officer - Commercial. Prior to joining KCL, he was working with Sami Labs Limited, Bangalore for over seven years. He has extensive experience in Commercial activities and at Stellence is in charge of Supply Chain Management, including global procurement and Production planning and inventory control.
-                        </Card.Text>
+                            Mr. Sabil has more than 20 years of experience in managing various aspects operations in pharmaceutical
+                            companies and is associated with Stellence since its inception where he leads the commercial operations.
+                         </Card.Text>
                         
                     </Card.Body>
                 </Card>
@@ -26,9 +27,8 @@ function MeetTeam(){
                         <Card.Title>M. MURUGANANDHAM</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Production</Card.Subtitle>
                         <Card.Text>
-                        Muruganandam joined Stellence as the Head of production with over 20 years of experience in several roles in production including the last assignment as Asst. Manager at Biocon.<br/>
-
-                        He is also an Alumni of the University of Madras.
+                        Mr. Muruganandam has over 20 years of experience in API production, including his last assignment, where he
+                        led several products and has successfully faced regulatory audits including USFDA, EMA and other agencies.
                         </Card.Text>
                         
                     </Card.Body>
@@ -36,28 +36,48 @@ function MeetTeam(){
             </div>
             
             <div className="two-cards">
-                <Card  className="indi-card">
+                {/* <Card  className="indi-card">
                     <Card.Body>
                         <Card.Title>RAJKUMAR K</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of QA</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Quality Assurance</Card.Subtitle>
                         <Card.Text>
-                        Rajkumar is in charge of the QA department at Stellence. Prior to joining Stellence, he has been part of the QA department at Biocon. He has an extensive experience of 17 years in QA functions.<br/>
+                        Mr. Rajkumar has 17 years of experience in Quality Assurance where he has prepared the facilities and
+                        successfully completed audits from several agencies including USFDA, EMA and agencies of other countries.
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card> */}
+                <Card  className="indi-card">
+                    <Card.Body>
+                        <Card.Title>LAKSHMI BHASKAR</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Business Development</Card.Subtitle>
+                        <Card.Text>
+                        Ms. Lakshmi has more than 15 years of experience in Business Development roles in the pharmaceutical
+                        industry including CROs, and API marketing.
+                        </Card.Text>                       
+                    </Card.Body>
+                </Card>
+            </div>
 
-                        He holds an MSc from Kuvempu University, Shimoga.
+            <div className="two-cards">
+                <Card  className="indi-card">
+                    <Card.Body>
+                        <Card.Title>Dr. Ambily</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Regulatory Affairs</Card.Subtitle>
+                        <Card.Text>
+                        Dr. Ambily, PhD has several years of industry experience including QC, QA and
+                        regulatory affairs. She is associated with Stellence since 2018.
                         </Card.Text>
                         
                     </Card.Body>
                 </Card>
                 <Card  className="indi-card">
                     <Card.Body>
-                        <Card.Title>LAKSHMI BHASKAR</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Business Development</Card.Subtitle>
+                        <Card.Title>Anilkumar C.</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted, sub-heading">Head of Quality Control</Card.Subtitle>
                         <Card.Text>
-                        Lakshmi joined the BD team at Stellence with 10 years of experience working with CROs based in Bangalore and Singapore including stints at Biocon and Anthem Biosciences.<br/>
-
-                        She holds a BTech in Industrial Biotechnology and MBA in Marketing from IMT Ghaziabad. She is also an alumni of NUSAGE-Parexel Academy, NUS, Singapore.
-                        </Card.Text>
-                        
+                        Mr. Anilkumar. C has 3 decades of experience in Quality Control in several pharma companies, where he has prepared facilities and successfully faced major audits like WHO-GMP, ISO,  TFDA,PMPB, MCAZ, TGA, MHRA, MCAZ.
+                        </Card.Text>                       
                     </Card.Body>
                 </Card>
             </div>

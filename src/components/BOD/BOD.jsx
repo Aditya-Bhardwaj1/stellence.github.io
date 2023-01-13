@@ -22,7 +22,7 @@ function BOD(){
 
                         Ram has been an entrepreneur since 1983, and has been keenly involved in turning around sick and problematic companies.<br/>
 
-                        His last assignment of over 10 years was as part of a three member senior management team at Strides Arcolab Limited (SAL). He was actively involved in and was instrumental in the growth of the company. He was in charge of the 'Steriles Division' of the company initially and later was Head of Operations of the Contract Research and Manufacturing (CRAM) business at SAL, in which he was involved right from its acquisition. He was instrumental in the acquisition of the US business and was in charge of its operations till 2005.
+                        His last assignment of over 10 years was as part of a three member senior management <b>team</b> at Strides Arcolab Limited (SAL). He was actively involved in and was instrumental in the growth of the company. He was in charge of the 'Steriles Division' of the company initially and later was Head of Operations of the Contract Research and Manufacturing (CRAM) business at SAL, in which he was involved right from its acquisition. He was instrumental in the acquisition of the US business and was in charge of its operations till 2005.
 
 
                         </p>
@@ -39,9 +39,7 @@ function BOD(){
                     </div>
                     <div className="theback">
                         <p className="bod-description">
-                        As the Founder and Director of Avigna Learning Academy, Anuradha is focused towards finding suitable placements for skilled youth in India and abroad.<br/><br/>
-
-                        She is actively involved and keen in training candidates for interviews and provides expert guidance to students to succeed in English standardized tests such as IELTS,TOEFL,OET and PTE to facilitate them to explore opportunities abroad. She also heads the Avigna Clinical Research Institute (ACRI), which is also part of Avigna Learning Academy offers training for Life Science and Health Science graduates to achieve placements in companies of repute.
+                        Ms. Anuradha is an expert in learning and development especially in clinical research and has developed programs for successful placements of several youth both in India and abroad. Ms. Anuradha has been a founding Director of the company.
                         </p>
                     </div>
                     

@@ -19,7 +19,7 @@ function HomePage(){
                         <img src={require('../photos/reactor-home.png')} alt="reactor"/>
                     </div>
                     <div className="homepage-card-heading">
-                        10 KL Reactor capacity
+                        100 KL Reactor capacity
                     </div>
                 </div>
 

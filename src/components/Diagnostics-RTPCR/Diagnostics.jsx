@@ -10,9 +10,10 @@ function Diagnostics(){
 
         <div className="diag-text">
             <p>
-            <i>Svashmi Genotech Pvt. Ltd;</i>  ​is an innovation-driven diagnostic solutions company with a passion for research and development of genomics-based kits to address unmet needs in the detection of infectious diseases. Svashmi is promoted by Stellence Pharmscience. Pvt. Ltd., a 15-year-old Active Pharmaceuticals Ingredient (API) and Intermediates manufacturer which offers quality infrastructure including Regulatory and Quality systems.
+            <i>Svashmi Genotech Pvt. Ltd;</i>  ​is an innovation-driven diagnostic solutions company with a passion for research and development of genomics-based kits to address unmet needs in the detection of infectious diseases. Svashmi is promoted by Stellence Pharmscience. Pvt. Ltd., which offers quality infrastructure including Regulatory and Quality systems.
             </p>
         </div>
+        <div className="genome-svashmi-container">
         <div className="genome-heading-image">
             <h4>Why Choose Genome Testing?</h4>
             <div className="genome-img">
@@ -63,6 +64,7 @@ function Diagnostics(){
             <div className="svashmi-card">
                 <p><b>Sepsis/Hospital Acquired Infections</b>– 20 min test for ICU linens, uniforms, OTs</p>
             </div>
+        </div>
         </div>
         </>
     )

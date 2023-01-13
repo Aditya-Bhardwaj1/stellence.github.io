@@ -63,6 +63,26 @@ function APIs(){
                 <b>Therapeutic area: </b> <i>Wakefulness Promoting Agents</i>
                 </div>
               </div>
+
+              <div className="products-card">
+                <div className="products-card-inner">
+                <img src={require('../photos/L-Selenomethionine.png')} alt='api-products'/>
+                <h3>L-SELENOMETHIONINE</h3>
+                <h5><b>CAS No: 3211-76-5</b></h5>
+                <b>Therapeutic area: </b> <i>Nutraceutical/  Selenium supplement</i>
+                </div>
+              </div>
+
+              <div className="products-card">
+                <div className="products-card-inner">
+                <img src={require('../photos/sodium-api.png')} alt='api-products'/>
+                <h3>SODIUM PHENYL BUTYRATE</h3>
+                <h5><b>CAS No: 1716-12-7</b></h5>
+                <b>Therapeutic area: </b> <i>Urea Cycle Disorders</i>
+                </div>
+              </div>
+
+              
             </div>
         </div>
         </>

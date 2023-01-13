@@ -1,0 +1,12 @@
+.timeline-new-container{
+    /* background-image: url(../photos/timeline-new-text.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* min-height: 850px; */
+    
+}
+
+.timeline-new-container img{
+    width: 100%;
+    margin-bottom: 10px;
+}
